@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webアプリ取扱説明書</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        video {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+        }
+        a {
+            color: #0066cc;
+        }
+    </style>
+</head>
+<body>
+    <h1>Webアプリ取扱説明書</h1>
+
+    <p>G284252022 梅澤良輔</p>
+
+    <div class="section">
+        <h2>1. 本アプリケーションの工夫点</h2>
+        
+        <ul>
+            <li>タップゲームということで、誰でも簡単に遊ぶことができる</li>
+            <li>３色の色と異なる得点を実装し、ゲーム性を向上させた</li>
+            <li>灰色の四角の中にのみ丸が出現する仕様にすることで、他のゲームと差別化を図った</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>2. 操作方法</h2>
+        
+        <ol>
+            <li>スタートボタンを押します。</li>
+            <li>ゲームがスタートし、制限時間10秒以内により多くの丸をタップしていきます。</li>
+            <li>ゲームが終了すると、スコアがGASを用いて送信されます。</li>
+            <li>再びスタートを押すことで、ゲームを始めることができます。</li>
+        </ol>
+    </div>
+
+    <div class="section">
+        <h2>3. アプリの解説ムービー</h2>
+        <video controls>
+            <source src="app_overview.mp4" type="video/mp4">
+            お使いのブラウザは<code>video</code>タグに対応していません。
+        </video>
+    </div>
+
+    <div class="section">
+        <h2>4. アプリ操作ムービー</h2>
+        <video controls>
+            <source src="app_tutorial.mp4" type="video/mp4">
+            お使いのブラウザは<code>video</code>タグに対応していません。
+        </video>
+    </div>
+
+    <div class="section">
+        <h2>5. 参考文献・Webページ</h2>
+        <ul>
+            <li><a href="https://developer.mozilla.org/ja/docs/Web">MDN Web Docs</a></li>
+            <li><a href="https://qiita.com/EZ_Denta/items/c2f7ba5997187854b7a4">Google Apps Scriptを使ってGoogleスプレッドシートと外部APIを連携してみる</a></li>
+            <li><a href="https://i-say.net/note/1058"></a>GASからのCROSエラーの解決方法</li>
+        </ul>
+    </div>
+</body>
+</html>
